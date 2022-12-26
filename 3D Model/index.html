@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Website</title>
+    <script src="https://kit.fontawesome.com/39fdfc22a2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div id="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div id="aSide">
+            <img src="images/background.png" alt="">
+            <model-viewer src="images/Drossel.gltf" alt="model robot" auto-rotate camera-controls ar ios-src="images/Drossel.gltf"></model-viewer>
+        </div>
+        <div id="content">
+            <h2>ROBOT MODEL</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto molestiae sint vitae, ullam quos laboriosam impedit doloremque ab corporis ipsum distinctio quidem nostrum mollitia excepturi ex. Eos voluptatibus distinctio facilis!</p>
+            <button>Find More</button>
+        </div>
+        <div id="icons">
+            <div id="iconsLogo">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+        <div id="pagination">
+            <div id="leftBtn">
+                <i class="fas fa-angle-left"></i>
+            </div>
+            <div id="rightBtn">
+                <i class="fas fa-angle-right"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
